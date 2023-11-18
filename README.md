@@ -1,2 +1,4 @@
 # Deep-learning-based-Chronic-Kidney-Disease-Detection
 A deep learning project that uses stacked ensemble approach to detect and predict Chronic Kidney disease
+This is a full stackeed approach of applying LSTM - GRU - RNN deep learning algorithms to train and create a base learner algorithm that combines the methodology of all three algorithms.
+In this a modelis s first trained using lstm algorithm and its output is then used to train a gru model. the output of this algorithm is then usrd to train a rnn model. the combined output of these algorithms stacked together is then used to as the base learner. Once this is done we bring in SVM as the meta learner due to its capabilities as a classification approach. We then apply svm by tuning all of its hyperparameters(kernals, c value) to get the best possible accuracy for prediction and classification of chronic kidney disease. 
